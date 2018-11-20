@@ -142,6 +142,18 @@
                     <td class="content"></td>
                     </tr>
 
+                    <tr><td class="header" colspan="3">Print loaded shared libraries when launching application</td></tr>
+                        <td class="content">
+                            <b>(gdb)</b> set print symbol-loading full <br>
+                        </td>
+                        <td class="content">
+                            <b>(lldb)</b> env DYLD_PRINT_LIBRARIES=1<br>
+                        </td>
+                        <td class="content">
+                            (<i>Need to figure it out.</i>)
+                        </td>
+                    </tr>
+
                     <tr><td class="header" colspan="3">Set environment variables for process before launching.</td></tr>
                         <td class="content">
                             <b>(gdb)</b> set env DEBUG 1<br>
